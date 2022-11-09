@@ -1,8 +1,15 @@
 import React from "react";
+import Inputs from "./Inputs";
 import "./style.css";
+import Name from "./Name";
+import Location from "./Location";
 
 function App() {
-  return <div>Task 4</div>;
+  return <div>
+    <Inputs />
+    <Name />
+    <Location />
+  </div>;
 }
 
 export default App;

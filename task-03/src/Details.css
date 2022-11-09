@@ -1,0 +1,13 @@
+.name{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+::first-letter{
+    text-transform: capitalize;
+}
+.characters, .povCharacters{
+    font-size: 0.0004rem; opacity: 0.3;
+}
+.url::before{
+    content: '------------------------------------------------------------------';
+}
